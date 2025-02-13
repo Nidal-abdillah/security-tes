@@ -12,7 +12,7 @@ const ProfilPage = (props: ProfilPageProps) => {
       <div className="card">
         <p>name : {name}</p>
         <p>age : {age}</p>
-        {job ? <p>job : {job}</p> : <p>job : nganggur</p>}
+        {job ? <p>job : {job}</p> : <p>job : belum bekerja</p>}
         <p>city : {city}</p>
       </div>
     </>
